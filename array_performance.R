@@ -29,5 +29,7 @@ arrayperformance <- function(directory, clean=TRUE) {
 	##}
 
 	##mean(dataset[[pollutant]], na.rm=TRUE)
+	##Below is an example that reads in the PG data sets appropriately
+	##PGDAT <- read.table("PG_IOPS.csv", sep=",", header=TRUE, skip=6)
 	
 }
